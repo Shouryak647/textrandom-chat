@@ -97,7 +97,7 @@ function SideDrawer() {
         },
       };
 
-      const response = await axios.get(`/api/user?getallUsers`, config); // Adjust the endpoint as necessary
+      const response = await axios.get(`${process.env.REACT_APP_ENDPOINT}/api/user?getallUsers`, config); // Adjust the endpoint as necessary
       setGetallUsers(response.data);
       setLoading(false);
     } catch (error) {
@@ -158,7 +158,7 @@ function SideDrawer() {
         },
       };
 
-      const { data } = await axios.get(`/api/user?search=${search}`, config);
+      const { data } = await axios.get(`${process.env.REACT_APP_ENDPOINT}/api/user?search=${search}`, config);
       setLoading(false);
       setSearchResult(data);
     } catch (error) {
@@ -183,7 +183,7 @@ function SideDrawer() {
           Authorization: `Bearer ${user.token}`,
         },
       };
-      const { data } = await axios.post(`/api/chat`, { userId }, config);
+      const { data } = await axios.post(`${process.env.REACT_APP_ENDPOINT}/api/chat`, { userId }, config);
 
       if (!chats.find((c) => c._id === data._id)) setChats([data, ...chats]);
       setSelectedChat(data);

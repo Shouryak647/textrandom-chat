@@ -34,7 +34,7 @@ const ProfileModal = ({ user, children }) => {
 
       // Make delete request
       await axios.delete(
-        `http://192.168.194.209:3000/api/user/delete/${user._id}`,
+        `${process.env.REACT_APP_ENDPOINT}/api/user/delete/${user._id}`,
         config
       );
 
