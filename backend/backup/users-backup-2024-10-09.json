@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "6701147ba3877854202d039e",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Suryaa",
+    "email": "shouryak647@gmail.com",
+    "gender": "Male",
+    "age": 22,
+    "password": "$2a$10$Ro5bPL0ZO9kI2bdlZ6QEauW9mbPeeNr3Ep6U5q5iQQ8s7seebCqoa",
+    "__v": 0
+  },
+  {
+    "_id": "6701152ca3877854202d039f",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Ananya",
+    "email": "ananya@gmail.com",
+    "gender": "Female",
+    "age": 20,
+    "password": "$2a$10$Kt81Tyo1DQ5t51XQCL9PROagCWCvMXmgJjVdxn31PZ25Yw0ShcGA2",
+    "__v": 0
+  },
+  {
+    "_id": "670122d552f658333cd2835d",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Tarrun",
+    "email": "hello@gmail.com",
+    "gender": "Male",
+    "age": 20,
+    "password": "$2a$10$xPj056SiQ4uM0WT1x8vmBO0I97GRrJSqVM2OPIVxgntMlTOVEihXC",
+    "__v": 0
+  },
+  {
+    "_id": "6701318e08bd98046890f47a",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Chowbeyy",
+    "email": "anurag18202@gmail.com",
+    "gender": "Other",
+    "age": 69,
+    "password": "$2a$10$aauF2arYFJZ2gyVdZxBgJel1/LoqaD8RHQNHr8cEQWK5IF2cFGuwa",
+    "__v": 0
+  },
+  {
+    "_id": "67017819ee1bb4235045e7dd",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "alina",
+    "email": "alina@gmail.com",
+    "gender": "Female",
+    "age": 22,
+    "password": "$2a$10$nbDVFj/yu3sZ6C3uXuQuQ.UeCLtgm6KzJXfL5uk.4WSCRpd/6cNU6",
+    "__v": 0
+  },
+  {
+    "_id": "67017a8fb4adcd150882389f",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Rocky",
+    "email": "rocky@gmail.com",
+    "gender": "Male",
+    "age": 32,
+    "password": "$2a$10$ZBo2oyzqlcpL0s4B2tQ/kexd9G5HxVbTzIIDMqvz8gpk0EdrbEoQG",
+    "__v": 0
+  },
+  {
+    "_id": "670222c53d370b3cc84f81fe",
+    "pic": "http://res.cloudinary.com/dzvlmzvey/image/upload/v1728193166/yny1g1o3uhyxkb5yv4ru.jpg",
+    "isAdmin": false,
+    "name": "Anuraaag",
+    "email": "anuraghero@gmail.com",
+    "gender": "Male",
+    "age": 25,
+    "password": "$2a$10$/MxeduHVWZflCVKJkJh3neG1nNQkJooSX8pMoiOKbWTUEtX7UZV2a",
+    "__v": 0
+  },
+  {
+    "_id": "67023aaae2d48546a482ea01",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Akanksha",
+    "email": "prerna@gmail.com",
+    "gender": "Female",
+    "age": 26,
+    "password": "$2a$10$B150jNb1vlr.unxbgls1LO/Ss6zO0t/PqiomIQLH3fl3C2sSgwccO",
+    "__v": 0
+  },
+  {
+    "_id": "67023e53c4f54c392c6fb646",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "sameer",
+    "email": "sameer@gmail.com",
+    "gender": "Male",
+    "age": 24,
+    "password": "$2a$10$HSkaoL8jC881VSft.SiTO.zE1TJlcxL4am2jxt0H.If7VNmWwrcTS",
+    "__v": 0
+  },
+  {
+    "_id": "67023f997775330ec0c61036",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "kalyani",
+    "email": "kalyani@gmail.com",
+    "gender": "Female",
+    "age": 23,
+    "password": "$2a$10$YOnW8Rced1i0GKuyjBcvJ.pQuxzdJO.vPv7i/0tdW/ajkyvs2jOIa",
+    "__v": 0
+  },
+  {
+    "_id": "6703abc5f1a9b9485c2194e2",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Itz Uzza",
+    "email": "chandrenium@gmail.com",
+    "gender": "Male",
+    "age": 22,
+    "password": "$2a$10$6sAJ3c5Okn0QC/b0WfFXFeTQJUHX7rEcf0lhSJab4eWIP3BZyH1kG",
+    "__v": 0
+  },
+  {
+    "_id": "67064e2bf5bace6b8c304403",
+    "pic": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+    "isAdmin": false,
+    "name": "Marshal",
+    "email": "marshal@gmail.com",
+    "gender": "Male",
+    "age": 23,
+    "password": "$2a$10$5Tz/9.bO4Ybndzp5DeZFxOsH45a28L7f4sFEyPFq75FzQLFccmbda",
+    "ipAddress": "::ffff:127.0.0.1",
+    "__v": 0
+  }
+]
