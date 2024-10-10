@@ -1,16 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6008d6ee.chunk.css",
+    "main.css": "/static/css/main.4123f503.chunk.css",
     "main.js": "/static/js/main.5cdfc458.chunk.js",
-    "main.js.map": "/static/js/main.5cdfc458.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.24dda99a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.24dda99a.js.map",
     "static/js/2.8a203215.chunk.js": "/static/js/2.8a203215.chunk.js",
-    "static/js/2.8a203215.chunk.js.map": "/static/js/2.8a203215.chunk.js.map",
     "static/js/3.eedca762.chunk.js": "/static/js/3.eedca762.chunk.js",
-    "static/js/3.eedca762.chunk.js.map": "/static/js/3.eedca762.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6008d6ee.chunk.css.map": "/static/css/main.6008d6ee.chunk.css.map",
     "static/js/2.8a203215.chunk.js.LICENSE.txt": "/static/js/2.8a203215.chunk.js.LICENSE.txt",
     "static/media/chatfunction.b4fe3217.mp4": "/static/media/chatfunction.b4fe3217.mp4",
     "static/media/friends_transparen.83a00fad.png": "/static/media/friends_transparen.83a00fad.png",
@@ -21,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.24dda99a.js",
     "static/js/2.8a203215.chunk.js",
-    "static/css/main.6008d6ee.chunk.css",
+    "static/css/main.4123f503.chunk.css",
     "static/js/main.5cdfc458.chunk.js"
   ]
 }
