@@ -8,12 +8,12 @@ const generateToken = require("../config/generateToken");
 const allUsers = asyncHandler(async (req, res) => {
   const keyword = req.query.search
     ? {
-        $or: [
-          { name: { $regex: req.query.search, $options: "i" } },
-          // { email: { $regex: req.query.search, $options: "i" } },
-          { gender: { $eq: req.query.search } },
-        ],
-      }
+      $or: [
+        { name: { $regex: req.query.search, $options: "i" } },
+        // { email: { $regex: req.query.search, $options: "i" } },
+        { gender: { $eq: req.query.search } },
+      ],
+    }
     : {};
 
   const users = await User.find(keyword).find({ _id: { $ne: req.user._id } });
@@ -21,7 +21,7 @@ const allUsers = asyncHandler(async (req, res) => {
 });
 
 
-const getallUsers = asyncHandler( async(req, res) => {
+const getallUsers = asyncHandler(async (req, res) => {
   try {
     const users = await User.find(); // Fetch all users from the database
     res.json(users); // Send the users as a JSON response
@@ -51,8 +51,13 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new Error("User already exists");
   }
 
-   // Capture IP address from the request
-   const ipAddress = req.ip;
+  // Capture IP address from the request headers or connection
+  let ipAddress = req.headers['x-forwarded-for'] || req.socket.remoteAddress;
+
+  // If 'x-forwarded-for' has multiple addresses, take the first one (real IP)
+  if (ipAddress.includes(',')) {
+    ipAddress = ipAddress.split(',')[0];
+  }
 
   const user = await User.create({
     name,
@@ -61,7 +66,7 @@ const registerUser = asyncHandler(async (req, res) => {
     age,
     password,
     pic,
-    ipAddress, 
+    ipAddress,
   });
 
   if (user) {

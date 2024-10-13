@@ -10,7 +10,7 @@ const chatModel = mongoose.Schema(
       ref: "Message",
     },
     groupAdmin: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-    createdAt: { type: Date, default: Date.now, expires: '24h' }, 
+    // createdAt: { type: Date, default: Date.now, expires: '24h' }, 
     // This field will automatically delete the message after 24 hours
   },
   
