@@ -214,7 +214,7 @@ function SideDrawer() {
       >
         <Tooltip label="Search Users to chat" hasArrow placement="bottom-end">
           <Button variant="outline" colorScheme="black" onClick={onOpen}>
-            <i class="fas fa-user-friends" ></i>
+            <i className="fas fa-user-friends" ></i>
             <Text d={{ base: "none", md: "flex" }} px={4}>
               Add Friends
             </Text>
